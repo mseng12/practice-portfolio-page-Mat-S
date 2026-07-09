@@ -1,0 +1,73 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+}
+
+#main-header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#main-header h1 {
+    margin-bottom: 10px;
+}
+
+.profile-section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.about-me {
+    padding: 10px;
+}
+
+.skills-section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.skills-section h2 {
+    text-align: center;
+}
+
+.skills-section ul {
+    padding-left: 40px;
+}
+
+.skills-section li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: lightblue;
+}
